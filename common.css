@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DynaPuff&family=Raleway:wght@300&family=Roboto:wght@700&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    background-color: #E1A700;
+    font-weight: 600;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+    color: black;
+}
+h1,h2{
+    font-family: 'Roboto', sans-serif;
+}

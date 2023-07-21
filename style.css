@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DynaPuff&family=Raleway:wght@300&family=Roboto:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('./images/bg\ \(2\).jpg');
+    background-position: right bottom;
+    background-attachment: fixed;
+}
+
+.imgform {
+    display: flex;
+    position: relative;
+    top: 12px;
+    width: 100%;
+    justify-content: center;
+    height: auto;
+}
+
+@media screen and (max-width: 1470px){
+    .imgform{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 920px){
+    .imgform{
+        width: 94%;
+    }
+}
+@media screen and (max-width: 920px){
+    .imgform{
+        width: 95%;
+        margin: 0 19px;
+    }
+}
+@media screen and (max-width: 1133px){
+    .vecimg{
+        flex-basis: 54%;
+        position: relative;
+        top: 24px;
+    }
+}
+@media screen and (max-width: 700px){
+    .vecimg{
+        display: none;
+    }
+}
+img {
+    width: 87%;
+    height: 65%;
+    float: right;
+}
+@media screen and (max-width: 1133px){
+    img{
+        height: 81%;
+    }
+}
+
+
+#regForm {
+    background-color: white;
+    margin: 0;
+    position: relative;
+    top: 54px;
+    font-family: Raleway;
+    padding: 19px 34px;
+    height: 73%;
+    width: 42%;
+    min-width: 300px;
+    background: rgba(101, 101, 196, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.9px);
+}
+@media screen and (max-width: 1400px){
+    #regForm{
+        width: 51%;
+    }
+}
+@media screen and (max-width: 1200px){
+    #regForm{
+        top:29px;
+    }
+}
+@media screen and (max-width: 1133px){
+    #regForm{
+        flex-basis: 60%;
+    }
+}
+@media screen and (max-width: 700px){
+    #regForm{
+        flex-basis: 90%;
+    }
+}
+
+h1 {
+    margin: 0;
+    color: white;
+    display: flex;
+    font-size: 44px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 1270px){
+    h1{
+        font-size: 37px;
+    }
+}
+@media screen and (max-width: 920px){
+    h1{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 428px){
+    h1{
+        font-size: 26px;
+        margin-bottom: 3px;
+    }
+}
+h1 .compstyle {
+    color: #E1A700;
+    font-weight: bolder;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 3px;
+}
+h3 a
+{
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+h3 a:hover{
+    color: #E1A700;
+}
+label {
+    color: white;
+}
+
+select {
+    font-size: 17px;
+    padding: 3px;
+}
+
+input {
+    padding: 5px;
+    width: 100%;
+    font-size: 18px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+    background: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid;
+}
+
+textarea{
+    padding: 5px;
+    font-size: 12px;
+}
+::placeholder {
+    color: grey;
+}
+
+textarea {
+    width: 100%;
+}
+
+input.invalid {
+    background-color: #ffdddd;
+}
+
+.tab {
+    display: none;
+    margin-bottom: 22px;
+}
+
+.tab p {
+    margin-bottom: 19px;
+}
+
+#prevBtn {
+    background-color: #bbbbbb;
+}
